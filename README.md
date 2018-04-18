@@ -15,8 +15,8 @@ To edit crontab table:
 $ crontab -e
 
 Add a line like these to crontab:
-# m h  dom mon dow   command
-# Will run the script three times a day every day
-* 8,12,16 * * * python3 SEP_get_def.py
-# Will run the script once a day at 15:15 every day
-15 15 * * * python3 SEP_get_def.py
+"# m h  dom mon dow   command"
+"# Will run the script three times a day every day"
+"* 8,12,16 * * * python3 SEP_get_def.py"
+"# Will run the script once a day at 15:15 every day"
+"15 15 * * * python3 SEP_get_def.py"
