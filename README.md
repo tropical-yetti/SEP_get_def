@@ -16,9 +16,17 @@ $ crontab -e
 
 Add a line like these to crontab:
 "# m h  dom mon dow   command"
+
 "# Will run the script three times a day every day"
+
 "0 8,12,16 * * * python3 SEP_get_def.py"
+
 "# Will run the script once a day at 15:15 every day"
+
 "15 15 * * * python3 SEP_get_def.py"
+
 "# Will run the script every hour and every day at 00:15, 01:15, 02:15..."
+
 "15 * * * * python3 SEP_get_def.py"
+
+
