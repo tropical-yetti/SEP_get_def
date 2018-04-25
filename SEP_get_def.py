@@ -26,11 +26,11 @@ system_OS = platform.system()
 if system_OS=='Linux':
     import pwd
     import grp
-    path = "/home/..."
-    user_name = 'serpro'
-    group_name = 'serpro'
+    path = "/home/user/SEP_get_def..."
+    user_name = 'user'
+    group_name = 'group'
 elif system_OS=='Windows':
-    path = "C:\\Users\\..."
+    path = "C:\\Users\\User\SEP_get_def"
 else:
     print("How stupid is someone using a Mac Server?")
 print("Are you a {} user?".format(system_OS))
